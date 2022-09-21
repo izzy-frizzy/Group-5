@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>~About me~</title>
+    </head>
+    <a href="index.html">HOME</a>
+    <body>
+        <h1>Hey! I'm Muhammad!</h1>
+        <h2>Pleasure to be in this class</h2>
+        <div class = "aboutMe">
+            <p>I'm a computer scince major with a mathematics minor</p>
+            <p>I love working with anddorid studio, since My goal as career to make applications.</p>
+        </div>
+
+        <p>My languages</p>
+        <ul>
+            <li>Html & Python</li>
+            <li>Javascript</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Lennox<>   ></li>
+        </ul>
+    </body>
+</html>
