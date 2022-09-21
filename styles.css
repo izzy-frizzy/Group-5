@@ -18,8 +18,8 @@ h1 {
     text-align: center; 
     }
         h3 {
-            margin: 30px 25px;
-    text-align: center; 
+        margin: 20px 20px;
+        text-align: center; 
         }
 
 
@@ -32,6 +32,10 @@ div {
 
 .names{
     text-align: center;
+    margin: 20px 40px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
 }
 
 
