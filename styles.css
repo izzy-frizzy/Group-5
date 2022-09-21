@@ -10,16 +10,16 @@ body{
 h1 {
     border: black 5px solid;
     margin: 30px 25px;;
-   text-align: center  
+   text-align: center;  
     
 }
     h2 {
         margin:  25px 50px;
-    text-align: center 
+    text-align: center; 
     }
         h3 {
             margin: 30px 25px;
-    text-align: center 
+    text-align: center; 
         }
 
 
@@ -33,13 +33,20 @@ div {
 
 p {
     
-    margin: 50px;
-    text-align: center
+    margin: .75%;
+    text-align: center;
     
 }
 
 ul{
-    text-align: center
+    text-align: center;
+    padding: auto ;
+    margin: auto;
+}
+ul li{
+    text-align: center;
+    padding: auto ;
+    margin: auto;
 }
 
 .navbar{
