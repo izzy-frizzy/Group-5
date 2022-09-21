@@ -1,0 +1,19 @@
+h1 {
+   text-align: center
+    
+}
+
+
+div {
+
+    display: grid;
+    place-items: center;
+}
+
+
+p {
+
+    text-align: center
+}
+
+
