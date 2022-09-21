@@ -5,6 +5,8 @@ body{
     
 }
 
+
+
 h1 {
     border: black 5px solid;
     margin: 30px 25px;;
@@ -40,5 +42,23 @@ ul{
     text-align: center
 }
 
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
 
+.navbar ul li a{
+text-decoration: none;
+color: black;
+text-transform: uppercase; 
+}
 
