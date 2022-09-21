@@ -41,10 +41,12 @@ p {
 ul{
     text-align: center;
     padding: auto ;
+    color: black;
     margin: auto;
 }
 ul li{
     text-align: center;
+    color: black;
     padding: auto ;
     margin: auto;
 }
@@ -54,13 +56,16 @@ ul li{
     margin: auto;
     padding: 40px 0px;
     display: flex;
+    color: black;
     align-items: center;
     justify-content: space-between;
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
+    color: black;
     margin: 0 20px;
+    position: relative;
 }
 
 .navbar ul li a{
@@ -69,3 +74,17 @@ color: black;
 text-transform: uppercase; 
 }
 
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: crimson;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
