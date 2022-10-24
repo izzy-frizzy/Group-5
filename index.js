@@ -13,6 +13,12 @@ app.get('/jamari', (req, res) => {
     res.sendFile(path.join(__dirname, 'jamari.html'))
   })
 
+app.post('/comment', (req, res) => {
+
+console.log(req.body)
+res.json(req.body)
+})
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
